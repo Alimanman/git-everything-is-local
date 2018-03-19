@@ -14,3 +14,11 @@ https://juejin.im/book/5a124b29f265da431d3c472e
 
 ## 目标计划：
 #### 真正做到不仅会用git，还要了解其概念和原理。
+
+## Git介绍
+
+Git 是一个分布式版本控制系统（Distributed Version Control System - DVCS）
+
+我们生活中最常见的版本控制 - ctrl+z
+
+
