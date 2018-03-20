@@ -18,8 +18,10 @@ git clone 你刚复制的地址
 
 > 隐藏的`\.git`目录，就是本地仓库（Local Repository）。也称之为 Git 的工作目录（Working Directory）
 
-###查看提交历史
+## 查看提交历史
 
 ```
 git log
 ```
+
+> 按 q 键退出
