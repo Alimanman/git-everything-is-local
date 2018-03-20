@@ -28,9 +28,9 @@ git log
 
 ## 查看工作目录当前状态
 
-- 如果无任何变动：nothing
-- 有新文件:untracked（红色）
-- 已添加追踪：new file(绿色)
+- 如果无任何变动：nothing to commit
+- 有新文件：Untracked files（红色）
+- 已添加追踪：Changes to be committed(绿色)
 
 ```
 git status
@@ -38,12 +38,32 @@ git status
 
 ## 跟踪文件
 
+跟踪成功后，终端不会给你反馈。通过`status`查看状态。
+
 ```
 git add 你要跟踪的指定文件
 git add . //添加所有变化文件
 ```
 
-> 跟踪成功后，终端不会给你反馈。通过`status`查看状态。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
