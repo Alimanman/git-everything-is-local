@@ -59,11 +59,25 @@ git commit
 
 完成后通过`git log`查看，已经被保存在本地的.git目录里了。
 
+再次查看`git status`，发现**ahead of**。
+这表示本地的版本，已领先于目前版本。
+
 ## 推送到中央仓库
 
 ```
 git push
 ```
+
+## 以上流程总结
+
+1. 从 GitHub 把中央仓库 clone 到本地（使用命令： `git clone`）
+
+2. 把写完的代码提交（先用 `git add` 文件名 把文件添加到暂存区，再用 `git commit` 提交）
+ - 在这个过程中，可以使用 `git status` 来随时查看工作目录的状态
+
+ - 每个文件有 "changed / unstaged"（已修改）, "staged"（已修改并暂存）, "commited"（已提交） 三种状态，以及一种特殊状态 "untracked"（未跟踪）
+
+3. 提交一次或多次之后，把本地提交 push 到中央仓库（`git push`）
 
 
 
