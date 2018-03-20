@@ -63,8 +63,12 @@ git branch -d 名称
 ```
 
 1. HEAD 指向的 branch 不能删除。
-2. branch 只是一个引用，所以删除 branch 的操作也只会删掉这个引用，并不会删除任何的 commit。如果一个 commit 不在任何一个 branch上，就是野生commit，当然不用担心，在一定时间后，它会被 Git 的回收机制删除掉。
+2. branch 只是一个引用，所以删除 branch 的操作也只会删掉这个引用，并不会删除任何的 commit。
+如果一个 commit 不在任何一个 branch上，就是野生commit，当然不用担心，在一定时间后，它会被 Git 的回收机制删除掉。
 3. 没有被合并到 master 过的 branch 在删除时会失败。
+如果非要删除，可以把 -d 改成 -D，小写换成大写，就能删除了。
+
+![](https://user-gold-cdn.xitu.io/2017/11/29/16006b7e3d35fe54?imageslim)
 
 
 
