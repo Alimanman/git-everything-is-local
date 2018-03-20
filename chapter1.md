@@ -30,6 +30,7 @@ git log
 
 - 如果无任何变动：nothing to commit
 - 有新文件：Untracked files（红色）
+- 更新文件：Changes not staged for commit（红色）
 - 已添加追踪：Changes to be committed(绿色)
 
 ```
