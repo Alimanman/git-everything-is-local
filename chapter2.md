@@ -80,10 +80,11 @@ git branch -d 名称
 4. branch 的创建、切换和删除：
  1. 创建 branch 的方式是 git branch 名称 或 git checkout -b 名称（创建后自动切换）；
  2. 切换的方式是 git checkout 名称；
- 3. 删除的方式是 git branch -d 名称。...
+ 3. 删除的方式是 git branch -d 名称。
 
-https://juejin.im
-掘金 — 一个帮助开发者成长的社区
+---
+
+
 
 
 
