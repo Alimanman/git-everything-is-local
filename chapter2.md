@@ -70,6 +70,21 @@ git branch -d 名称
 
 ![](https://user-gold-cdn.xitu.io/2017/11/29/16006b7e3d35fe54?imageslim)
 
+## HEAD、master、branch小结
+
+1. HEAD 是指向当前 commit 的引用，它具有唯一性，每个仓库中只有一个 HEAD。在每次提交时它都会自动向前移动到最新的 commit 。
+2. branch 是一类引用。HEAD 除了直接指向 commit，也可以通过指向某个 branch 来间接指向 commit。当 HEAD 指向一个 branch 时，commit 发生时，HEAD 会带着它所指向的 branch 一起移动。
+3. master 是 Git 中的默认 branch，它和其它 branch 的区别在于：
+ 1. 新建的仓库中的第一个 commit 会被 master 自动指向；
+ 2. 在 git clone 时，会自动 checkout 出 master。
+4. branch 的创建、切换和删除：
+ 1. 创建 branch 的方式是 git branch 名称 或 git checkout -b 名称（创建后自动切换）；
+ 2. 切换的方式是 git checkout 名称；
+ 3. 删除的方式是 git branch -d 名称。...
+
+https://juejin.im
+掘金 — 一个帮助开发者成长的社区
+
 
 
 
