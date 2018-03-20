@@ -51,7 +51,16 @@ git checkout 名称
 git checkout -b 名称
 ```
 
+1. 在新branch下commit，HEAD 就会带（跟）着新的 branch 移动了
+2. 如果你再切换到 master 去 commit，就会真正地出现分叉了
 
+![](https://user-gold-cdn.xitu.io/2017/11/22/15fe3354ab0861a7?imageslim)
+
+## 删除 branch
+
+```
+git branch -d 名称
+```
 
 
 
