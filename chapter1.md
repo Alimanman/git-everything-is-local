@@ -68,7 +68,7 @@ git commit
 git push
 ```
 
-## 上手入门流程总结
+## 上手篇小结
 
 1. 从 GitHub 把中央仓库 clone 到本地（使用命令： `git clone`）
 
