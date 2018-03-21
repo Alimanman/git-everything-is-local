@@ -119,7 +119,11 @@ merge 的含义：从两个 commit「分叉」的位置起，把目标 commit �
    
    放弃合并：`git merge --abort`
    
-3. HEAD 领先于目标 commit
+3. HEAD 领先于目标 commit， Git 什么也不会做，merge 是一个空操作。
+   （也不知道怎么遇到这种情况。。。
+   ![](https://user-gold-cdn.xitu.io/2017/11/21/15fddc2b2357b9d9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+4. HEAD 落后于 目标 commit
    
 
 
