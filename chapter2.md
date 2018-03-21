@@ -131,9 +131,10 @@ merge 的含义：从两个 commit「分叉」的位置起，把目标 commit �
 
 ## Feature Branching
 
+这种工作流的核心内容可以总结为两点：
 
-
-
+1. 任何新的功能（feature）或 bug 修复全都新建一个 branch 来写；
+2. branch 写完后，合并到 master，然后删掉这个 branch。
 
 
 
