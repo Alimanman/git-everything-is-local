@@ -103,6 +103,12 @@ git push origin 名称
 ## merge 合并
 
 1. merge 的含义：从两个 commit「分叉」的位置起，把目标 commit 的内容应用到当前 commit（HEAD 所指向的 commit），并生成一个新的 commit；
+![](https://user-gold-cdn.xitu.io/2017/11/21/15fddc2aad5a0279?imageslim)
+
+```
+git checkout HEAD 所指向的 commit
+git merge 目标 commit
+```
 
 2. merge 的适用场景：
   1. 单独开发的 branch 用完了以后，合并回原先的 branch；
