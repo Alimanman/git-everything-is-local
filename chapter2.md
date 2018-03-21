@@ -111,8 +111,8 @@ git push origin 名称
  ```
 
 2. merge 的适用场景：
-  1. 单独开发的 branch 用完了以后，合并回原先的 branch；
-  2. git pull 的内部自动操作。
+  - 单独开发的 branch 用完了以后，合并回原先的 branch；
+  - git pull 的内部自动操作。
 
 3. merge 的三种特殊情况：
   - 冲突
