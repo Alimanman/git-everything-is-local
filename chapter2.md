@@ -116,7 +116,7 @@ git merge 目标 commit
 
 3. merge 的三种特殊情况：
   1. 冲突
-    1. 原因：当前分支和目标分支修改了同一部分内容，Git 无法确定应该怎样合并；
+    . 原因：当前分支和目标分支修改了同一部分内容，Git 无法确定应该怎样合并；
     2. 应对方法：解决冲突后手动 commit。
   2. HEAD 领先于目标 commit：Git 什么也不做，空操作；
   3. HEAD 落后于目标 commit：fast-forward。
