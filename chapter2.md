@@ -138,7 +138,11 @@ merge 的含义：从两个 commit「分叉」的位置起，把目标 commit �
 
 ![](https://user-gold-cdn.xitu.io/2017/11/21/15fde6edbfe362c4?imageslim)
 
-## 代码分享
+## Pull Request
+
+github和bitbucket都是这个功能。
+
+
 
 
 
