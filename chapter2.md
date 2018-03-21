@@ -124,7 +124,12 @@ merge 的含义：从两个 commit「分叉」的位置起，把目标 commit �
    ![](https://user-gold-cdn.xitu.io/2017/11/21/15fddc2b2357b9d9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 4. HEAD 落后于 目标 commit
+   地的 master 没有新提交，而远端仓库中有同事提交了新内容到 master。
+   ![](https://user-gold-cdn.xitu.io/2017/11/21/15fddc2b46c69d46?imageslim)
    
+---
+
+
 
 
 
