@@ -84,9 +84,36 @@ git branch -d 名称
 
 ---
 
+## push 的本质
 
+1. push 是把当前的分支上传到远程仓库，并把这个 branch 的路径上的所有 commits 也一并上传。
+![](https://user-gold-cdn.xitu.io/2017/11/29/1600725e9973f71d?imageslim)
 
+2. push 的时候，如果当前分支是一个本地创建的分支，需要指定远程仓库名和分支名，用 git push origin branch_name 的格式，而不能只用 git push。
 
+```
+git push origin 名称
+```
+
+3. push 的时候之后上传当前分支，并不会上传 HEAD；远程仓库的 HEAD 是永远指向默认分支（即 master）的。
+![](https://user-gold-cdn.xitu.io/2017/11/29/160073ccda56ef07?imageslim)
+
+---
+
+## merge 合并
+
+1. merge 的含义：从两个 commit「分叉」的位置起，把目标 commit 的内容应用到当前 commit（HEAD 所指向的 commit），并生成一个新的 commit；
+
+2. merge 的适用场景：
+  1. 单独开发的 branch 用完了以后，合并回原先的 branch；
+  2. git pull 的内部自动操作。
+
+3. merge 的三种特殊情况：
+  1. 冲突
+    1. 原因：当前分支和目标分支修改了同一部分内容，Git 无法确定应该怎样合并；
+    2. 应对方法：解决冲突后手动 commit。
+  2. HEAD 领先于目标 commit：Git 什么也不做，空操作；
+  3. HEAD 落后于目标 commit：fast-forward。
 
 
 
