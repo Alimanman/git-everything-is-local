@@ -91,9 +91,9 @@ git branch -d 名称
 
 2. push 的时候，如果当前分支是一个本地创建的分支，需要指定远程仓库名和分支名，用 git push origin branch_name 的格式，而不能只用 git push。
 
-```
-git push origin 名称
-```
+   ```
+   git push origin 名称
+   ```
 
 3. push 的时候之后上传当前分支，并不会上传 HEAD；远程仓库的 HEAD 是永远指向默认分支（即 master）的。
 ![](https://user-gold-cdn.xitu.io/2017/11/29/160073ccda56ef07?imageslim)
