@@ -117,7 +117,9 @@ merge 的含义：从两个 commit「分叉」的位置起，把目标 commit �
 
    手动改冲突并commit一下，在这种状态下 commit，Git 就会自动地帮你添加「这是一个 merge commit」的提交信息。
    
-   放弃合并`git merge --abort`
+   放弃合并：`git merge --abort`
+   
+3. 
    
 
 
