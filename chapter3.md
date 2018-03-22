@@ -19,7 +19,14 @@ git merge branch1
 
 **rebase 指令，它可以改变 commit 序列的基础点。**
 
-##
+## commit --amend
+
+更新刚提交了的commit，加上 --amend 参数，Git 不会在当前 commit 上增加 commit，而是会把当前 commit 里的内容和暂存区（stageing area）里的内容合并起来后创建一个新的 commit，用这个新的 commit 把当前 commit 替换掉。
+
+```
+git commit --amend
+```
+掘金 — 一个帮助开发者成长的社区
 
 
 
