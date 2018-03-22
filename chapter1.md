@@ -43,7 +43,7 @@ git status
 
 ```
 git add 你要跟踪的指定文件
-git add . //添加所有变化文件
+git add . //添加全部暂存
 ```
 
 添加的文件已被放入staging area（暂存区）后以待提交。
