@@ -19,6 +19,8 @@ git merge branch1
 
 **rebase 指令，它可以改变 commit 序列的基础点。**
 
+---
+
 ## commit --amend
 
 **可以修复最新 commit 的内容。**
@@ -31,7 +33,9 @@ git commit --amend
 
 > 适用于已经commit但是没有push的内容。
 
-## 修改再再之前的commit
+---
+
+## 修改更加之前的commit
 
 ### 1.回到需要的版本
 ```
