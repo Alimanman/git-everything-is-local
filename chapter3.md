@@ -26,7 +26,7 @@ git merge branch1
 ```
 git commit --amend
 ```
-掘金 — 一个帮助开发者成长的社区
+
 
 
 
