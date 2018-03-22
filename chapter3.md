@@ -87,6 +87,12 @@ git rebase -i HEAD^^
 直接删除记录（不用把 pick 修改成 edit）
 搞定！
 
+还可以使用`git rebase --onto`。
+
+---
+
+
+
 
 
 
