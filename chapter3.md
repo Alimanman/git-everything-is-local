@@ -62,6 +62,16 @@ git commit --amend
 git rebase --continue
 ```
 
+---
+
+## 直接丢弃commit
+
+```
+git reset --hard HEAD^
+```
+
+> 不过，撤销的那条提交并没有消失，只是你不再用到它了。如果你在撤销它之前记下了它的 SHA-1 码，那么你还可以通过 SHA-1 来找到他它。
+
 
 
 
