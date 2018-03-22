@@ -31,6 +31,34 @@ git commit --amend
 
 > 适用于已经commit但是没有push的内容。
 
+## 修改再再之前的commit
+
+### 1.回到需要的版本
+```
+git rebase -i HEAD^^
+git rebase -i HEAD～5
+```
+
+- ^表示往回偏移数量，1个表示1位
+- ～加数字，表示指定之前第几步
+
+弹出窗口，这个排列是正序的，旧的 commit 会排在上面，新的排在下面。
+把需要修改的 pick 修改成 edit 后退出。
+
+### 2.修改内容
+> 切记不能对同一个文件进行再修改。
+
+```
+git add .
+git commit --amend
+```
+
+### 3.最后
+```
+git rebase --continue
+```
+
+
 
 
 
