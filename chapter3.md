@@ -50,7 +50,7 @@ git rebase -i HEAD～5
 把需要修改的 pick 修改成 edit 后退出。
 
 ### 2.修改内容
-> 切记不能对同一个文件进行再修改。
+> 不能对同一个文件进行再修改。
 
 ```
 git add .
@@ -68,7 +68,11 @@ git rebase --continue
 
 ```
 git reset --hard HEAD^
+git reset --soft HEAD^
 ```
+
+- hard 彻底回退到某个版本，本地的源码也会变为上一个版本的内容
+- soft 只回退了commit的信息，就是可以重提commit
 
 > 不过，撤销的那条提交并没有消失，只是你不再用到它了。如果你在撤销它之前记下了它的 SHA-1 码，那么你还可以通过 SHA-1 来找到他它。
 
