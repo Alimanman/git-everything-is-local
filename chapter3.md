@@ -96,7 +96,7 @@ git rebase -i HEAD^^
 ```
 git push origin branch1 -f
 ```
->只建议在分支下使用，master下慎用。
+>只建议在私有branch上使用，master下慎用。
 
 
 
