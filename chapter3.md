@@ -117,6 +117,23 @@ git revert HEAD^
 ```
 >如果出错内容在 master：不要强制 push，而要用 revert 把写错的 commit 撤销。
 
+---
+
+## branch改了一半，需要master内容。
+
+无需在branch上commit
+
+保存
+```
+git stash
+```
+
+提取
+```
+git stash pop
+```
+
+
 
 
 
