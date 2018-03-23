@@ -147,6 +147,10 @@ merge 的含义：从两个 commit「分叉」的位置起，把目标 commit �
 
 ![](https://user-gold-cdn.xitu.io/2017/11/21/15fde6edbfe362c4?imageslim)
 
+扩展阅读：
+> Git Flow：复杂又高效的工作流
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
 ## Pull Request
 
 Pull Request 并不是 Git 的内容，而是一些 Git 仓库服务提供方（github和bitbucket都是这个功能）所提供的一种便捷功能，它可以让团队的成员方便地讨论一个 branch ，并在讨论结束后一键合并这个 branch 到 master。
