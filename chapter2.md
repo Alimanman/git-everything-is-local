@@ -10,6 +10,12 @@
 总之，当前 commit 在哪里，HEAD 就在哪里，这是一个永远自动指向当前 commit 的引用。
 
 #### 所以你永远可以用 HEAD 来操作当前 commit。
+```
+git checkout HEAD^^
+git checkout master~5
+git checkout 78a4bc
+git checkout 文件名
+```
 
 ## branch
 
@@ -44,6 +50,9 @@ git branch 名称
 ```
 git checkout 名称
 ```
+
+### checkout 的本质是签出指定的 commit
+
 
 **创建 + 切换**
 

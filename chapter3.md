@@ -79,7 +79,13 @@ git reset --soft HEAD^
 
 > 不过，撤销的那条提交并没有消失，只是你不再用到它了。如果你在撤销它之前记下了它的 SHA-1 码，那么你还可以通过 SHA-1 来找到他它。
 
-> reset 指令的本质：重置 HEAD 以及它所指向的 branch 的位置。
+#### reset 指令的本质：重置 HEAD 以及它所指向的 branch 的位置。
+
+这样也可以噢
+```
+git reset --hard branch2
+```
+![](https://user-gold-cdn.xitu.io/2017/11/22/15fe333cb605b0de?imageslim)
 
 ## 删除指定位置的commit
 
