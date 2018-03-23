@@ -133,6 +133,11 @@ git stash
 git stash pop
 ```
 
+---
+
+## reflog 起死回生技
+
+
 
 
 
