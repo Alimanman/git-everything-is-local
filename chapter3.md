@@ -91,7 +91,7 @@ git rebase -i HEAD^^
 
 ---
 
-## 如果已push
+## 如果已经push
 
 1.需要撤销的在私有barnch
 
