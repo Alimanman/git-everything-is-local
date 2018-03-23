@@ -68,10 +68,12 @@ git rebase --continue
 ## 直接丢弃commit
 
 ```
+git reset HEAD^
 git reset --hard HEAD^
 git reset --soft HEAD^
 ```
 
+- mixed 如果不加参数，那么默认使用 --mixed，保留工作目录，并且清空暂存区。
 - hard 彻底回退到某个版本，本地的源码也会变为上一个版本的内容
 - soft 只回退了commit的信息，就是可以重提commit
 
