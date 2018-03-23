@@ -102,6 +102,10 @@ git push origin branch1 -f
 
 2.需要撤销的master
 
+```
+git revert HEAD^
+```
+
 
 
 
