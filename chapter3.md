@@ -121,14 +121,14 @@ git revert HEAD^
 
 ## branch改了一半，需要master内容。
 
-无需在branch上commit
+无需在branch上commit后再撤回
 
-保存
+只需要在branch下保存
 ```
 git stash
 ```
 
-提取
+其他弄好后，再回到branch提取
 ```
 git stash pop
 ```
