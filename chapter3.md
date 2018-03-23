@@ -105,6 +105,7 @@ git push origin branch1 -f
 ```
 git revert HEAD^
 ```
+>如果出错内容在 master：不要强制 push，而要用 revert 把写错的 commit 撤销。
 
 
 
