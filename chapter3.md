@@ -93,10 +93,15 @@ git rebase -i HEAD^^
 
 ## 如果已push
 
+1.需要撤销的在私有barnch
+
 ```
 git push origin branch1 -f
 ```
 >只建议在私有branch上使用，master下慎用。
+
+2.需要撤销的master
+
 
 
 
