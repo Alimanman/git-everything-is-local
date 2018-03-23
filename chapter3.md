@@ -137,6 +137,16 @@ git stash pop
 
 ## reflog 起死回生技
 
+```
+git reflog
+git reflog master
+```
+
+## .gitignore
+
+这个文本文件记录了所有你希望被 Git 忽略的目录和文件。
+
+https://git-scm.com/docs/gitignore
 
 
 
