@@ -91,6 +91,11 @@ git rebase -i HEAD^^
 
 ---
 
+## 如果已push
+
+```
+git push origin branch1 -f
+```
 
 
 
