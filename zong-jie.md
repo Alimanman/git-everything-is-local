@@ -74,6 +74,9 @@ git push
 
 在你创建仓库的时候，master被“默认”创建。
 
+1. `git branch`查看本地所有分支
+2. `git branch -r`查看远程所有分支
+3. `git branch -a`查看本地和远程所有分支
 
 
 
