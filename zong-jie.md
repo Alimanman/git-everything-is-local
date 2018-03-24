@@ -40,5 +40,17 @@ git config --global user.email
 
 `git status`
 
+## clone
+
+`git clone <git-http> <file-name>`
+
+
+
+
+
+
+
+
+
 
 
