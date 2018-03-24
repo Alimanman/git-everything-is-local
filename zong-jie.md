@@ -1,6 +1,13 @@
 # 总结
 ---
 
+## 初始化
+
+```
+git config --global user.name <name>
+git config --global user.email <email>
+```
+
 ## 创建新仓库
 
 - 本地直接创建仓库
