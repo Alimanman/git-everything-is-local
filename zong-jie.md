@@ -42,6 +42,8 @@ git config --global user.email
 
 ## clone
 
+自定义clone下来的仓库文件名
+
 `git clone <git-http> <file-name>`
 
 
