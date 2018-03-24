@@ -68,7 +68,7 @@ git push origin <branch>
 git push
 ```
 
-> `git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
+`git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
 
 
