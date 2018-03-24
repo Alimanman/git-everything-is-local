@@ -72,11 +72,36 @@ git push
 
 ## branch
 
-在你创建仓库的时候，master被“默认”创建。
-
 1. `git branch`查看本地所有分支
 2. `git branch -r`查看远程所有分支
 3. `git branch -a`查看本地和远程所有分支
+
+新建并切换到新的branch
+
+```
+git checkout -b <branch>
+```
+
+删除branch
+
+```
+git branch -d <branch>
+```
+
+提交到中央仓库
+
+```
+git push origin <branch>
+```
+
+在你创建仓库的时候，master被“默认”创建。
+如何改名
+
+```
+git branch -m <old name> <new name>
+```
+
+
 
 
 
