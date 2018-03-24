@@ -57,11 +57,18 @@ git add <file name> <file name>
 ## push
 
 标准写法
+
 ```
 git push origin <branch>
 ```
 
-`git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
+快捷写法
+
+```
+git push
+```
+
+> `git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
 
 
