@@ -70,7 +70,9 @@ git push
 
 `git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
+## branch
 
+在你创建仓库的时候，master被“默认”创建。
 
 
 
