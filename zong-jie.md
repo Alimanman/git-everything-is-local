@@ -1,11 +1,19 @@
 # 总结
 ---
 
-## 初始化
+## 初始化信息
 
+登录
 ```
 git config --global user.name <name>
 git config --global user.email <email>
+```
+
+查看
+
+```
+git config --global user.name
+git config --global user.email
 ```
 
 ## 创建新仓库
