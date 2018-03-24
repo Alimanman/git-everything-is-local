@@ -82,16 +82,22 @@ git push
 git checkout -b <branch>
 ```
 
-删除branch
-
-```
-git branch -d <branch>
-```
-
 提交到中央仓库
 
 ```
 git push origin <branch>
+```
+
+切换当前barnch
+
+```
+git checkout <branch>
+```
+
+删除branch
+
+```
+git branch -d <branch>
 ```
 
 在你创建仓库的时候，master被“默认”创建。
