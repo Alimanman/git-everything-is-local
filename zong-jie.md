@@ -97,7 +97,8 @@ git checkout <branch>
 删除branch
 
 ```
-git branch -d <branch>
+git branch -d <本地 branch>
+git push origin -d <远程 branch>
 ```
 
 在你创建仓库的时候，master被“默认”创建。
