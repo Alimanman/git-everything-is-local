@@ -4,7 +4,7 @@
 ## 创建新仓库
 
 - 本地直接创建仓库
-  0. GitHub和Bitbucket新建仓库。
+  0. GitHub或Bitbucket新建仓库。
   1. 本地文件夹目录下`git init`生成`.git`本地仓库。
   2. 放入需要提交的文件。
   3. `git add .`添加追踪文件
