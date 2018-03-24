@@ -76,25 +76,25 @@ git push
 2. `git branch -r`查看远程所有分支
 3. `git branch -a`查看本地和远程所有分支
 
-新建并切换到新的branch
+**新建并切换到新的branch**
 
 ```
 git checkout -b <branch>
 ```
 
-提交到中央仓库
+**提交到中央仓库**
 
 ```
 git push origin <branch>
 ```
 
-切换当前barnch
+**切换当前barnch**
 
 ```
 git checkout <branch>
 ```
 
-删除branch
+**删除branch**
 
 ```
 git branch -d <本地 branch>
@@ -108,6 +108,7 @@ git push origin -d <远程 branch>
 git branch -m <old name> <new name>
 ```
 
+## merge
 
 
 
