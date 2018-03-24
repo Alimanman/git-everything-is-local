@@ -108,7 +108,10 @@ git push origin -d <远程 branch>
 git branch -m <old name> <new name>
 ```
 
-## merge
+## 合并
+
+- merge
+- Pull Request
 
 
 
