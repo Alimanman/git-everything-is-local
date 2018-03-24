@@ -54,6 +54,29 @@ git config --global user.email
 git add <file name> <file name>
 ```
 
+## push
+
+标准写法
+```
+git push origin <branch>
+```
+
+`git push` 等于 `git push origin master`，因为master分支推送到origin主机，同时指定origin为默认主机了。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
