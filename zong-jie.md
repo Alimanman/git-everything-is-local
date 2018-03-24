@@ -61,7 +61,7 @@ git add <file name> <file name>
 git push origin <branch>
 ```
 
-`git push` 等于 `git push origin master`，因为master分支推送到origin主机，同时指定origin为默认主机了。
+`git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
 
 
