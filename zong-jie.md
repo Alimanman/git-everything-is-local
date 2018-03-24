@@ -46,6 +46,14 @@ git config --global user.email
 
 `git clone <git-http> <file-name>`
 
+## add
+
+除了方便的`git add .`，也可以自定义需要提交的文件。
+
+```
+git add <file name> <file name>
+```
+
 
 
 
