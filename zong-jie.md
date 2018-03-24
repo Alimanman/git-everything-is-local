@@ -95,7 +95,7 @@ git push origin <branch>
 ```
 
 在你创建仓库的时候，master被“默认”创建。
-如何改名
+我就是叛逆不喜欢master这个名字，如何改名...
 
 ```
 git branch -m <old name> <new name>
