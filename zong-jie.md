@@ -250,6 +250,12 @@ git tag <tag name> <commit ID>
 git tag -d <tag name>
 ```
 
+提交到中央仓库
+
+```
+git push --tags
+```
+
 通过标签切换版本
 
 ```
