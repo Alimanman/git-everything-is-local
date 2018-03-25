@@ -200,18 +200,19 @@ git branch -m <old name> <new name>
 
 ## 合并
 
-- merge
+- **merge**
   1. 上传分支branch到中央仓库`git push origin <new branch>`；
   2. 本地切换到`git checkout master`；
   3. 合并`git merge <new branch>`；
   4. `git push`；
   5. 删除本地和远程的分支branch。
 
-- Pull Request(推荐)
+- **Pull Request(推荐)**
   1. 上传分支branch到中央仓库`git push origin <new branch>`；
   2. GitHub或Bitbucket页面点击Pull Request按钮；
   3. 本地切换到`git checkout master`；
-  4. 删除本地和远程的分支branch。
+  4. `git remote prune origin`清理远程分支，`git branch -d <new branch>
+`删除本地分支。
 
 
 
