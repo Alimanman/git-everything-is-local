@@ -186,8 +186,17 @@ git branch -m <old name> <new name>
 
 大多数的开发团队会规定开发以 master 为核心，所有的分支都在一定程度上围绕着 master 来开发。
 
+**现今主流的工作流**
+
 1. Feature Branching
 2. Git Flow
+
+## Feature Branching
+
+**这种工作流的核心内容**
+
+1. 任何新的功能或 bug 修复全都新建一个 branch 来写；
+2. branch 写完后，合并到 master，然后删掉这个 branch（本地和远程）。
 
 ## 合并
 
