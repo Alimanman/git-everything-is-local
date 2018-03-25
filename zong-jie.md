@@ -256,7 +256,9 @@ git tag -d <tag name>
 git reset --hard <tag name>
 git checkout <tag name>
 ```
-> checkout和reset的最大区别之一就是，checkout后HEAD指向了一个没有分支名字的修订版本,已经处于游离状态了(detached HEAD)。
+checkout和reset的最大区别之一就是，checkout后HEAD指向了一个没有分支名字的修订版本,已经处于游离状态了(detached HEAD)。
+checkout可以快速切换各个版本，因为没有分支名所以无法commit（安全）。
+可以通过`git checkout master`快速切换回最新版。
 
 ---
 
