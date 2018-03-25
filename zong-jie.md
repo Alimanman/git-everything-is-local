@@ -115,6 +115,13 @@ git push origin <branch>
 git push
 ```
 
+如果是reset --hard恢复历史版本
+
+```
+git push -f origin <branch>
+git push -f
+```
+
 `git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
 ## branch
