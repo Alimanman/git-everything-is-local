@@ -76,7 +76,16 @@ git commit
 git commit -m "<message>"
 ```
 
-## 撤回本地提交
+## 撤回
+
+1. mixed，保留工作目录，清空add，清空commit。
+
+```
+git reset HEAD^
+```
+
+2. soft，保留工作目录，保留add，清空commit。
+
 
 
 ## push
