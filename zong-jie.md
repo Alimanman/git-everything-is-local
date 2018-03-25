@@ -53,13 +53,17 @@ git log
 git log -p
 ```
 
-查看具体的 commit
+查看最新一条commit具体的commit
 
 ```
 git show
 ```
 
+查看指定commit ID具体的commit
 
+```
+git show <commit ID>
+```
 
 ## clone
 
