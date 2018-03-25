@@ -52,6 +52,21 @@ git config --global user.email
 
 ```
 git add <file name> <file name>
+
+```
+
+## commit
+
+进入编辑器模式，i进入输入模式，完成后ese+ZZ退出编辑器。
+
+```
+git commit
+```
+
+快捷写法
+
+```
+git commit -m "<message>"
 ```
 
 ## push
