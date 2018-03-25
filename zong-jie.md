@@ -41,7 +41,7 @@ git config --global user.email
 
 ## 查看提交历史
 
-内容很长情况下，按q退出。
+历史内容很多的情况下，按q退出。
 
 ```
 git log
