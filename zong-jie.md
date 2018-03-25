@@ -32,13 +32,20 @@ git config --global user.email
   2. 放入需要提交的文件；
   3. `git add .`添加追踪文件；
   5. `git push`直接提交。
-  
 
 ## 查看状态
 
 文件有新建、更新、删除都可以监测到。 
 
 `git status`
+
+## 查看提交历史
+
+内容很长情况下，按q退出。
+
+```
+git log
+```
 
 ## clone
 
@@ -68,6 +75,8 @@ git commit
 ```
 git commit -m "<message>"
 ```
+
+
 
 ## push
 
