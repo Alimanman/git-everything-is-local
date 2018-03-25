@@ -81,19 +81,21 @@ git commit -m "<message>"
 HEAD只想最新commit的引用，^表示返回上一个版本，^^表示返回之前第二个版本，以此类推。
 也可以使用HEAD~n来返回，或者直接使用commit ID。
 
-1. mixed，保留工作目录，清空add，清空commit。
+> 如果要再返回（ctrl+y），可以使用commit ID来实现。
+
+**1. mixed，保留工作目录，清空add，清空commit。**
 
 ```
 git reset HEAD^
 ```
 
-2. soft，保留工作目录，保留add，清空commit。
+**2. soft，保留工作目录，保留add，清空commit。**
 
 ```
 git reset --soft HEAD^
 ```
 
-3. hard，清空工作目录，清空add，清空commit。
+**3. hard，清空工作目录，清空add，清空commit。**
 
 ```
 git reset --hard HEAD^
