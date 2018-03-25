@@ -186,6 +186,9 @@ git branch -m <old name> <new name>
 
 大多数的开发团队会规定开发以 master 为核心，所有的分支都在一定程度上围绕着 master 来开发。
 
+1. Feature Branching
+2. Git Flow
+
 ## 合并
 
 - merge
