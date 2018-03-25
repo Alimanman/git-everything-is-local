@@ -228,11 +228,12 @@ git branch -m <old name> <new name>
 
 
 
+---
 
+## 阅读
 
-
-http://www.bootcss.com/p/git-guide/
-https://www.gitbook.com/book/bingohuang/progit2
+- http://www.bootcss.com/p/git-guide/
+- https://www.gitbook.com/book/bingohuang/progit2
 
 
 
