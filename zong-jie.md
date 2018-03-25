@@ -182,7 +182,8 @@ git branch -m <old name> <new name>
 
 
 
-
+http://www.bootcss.com/p/git-guide/
+https://www.gitbook.com/book/bingohuang/progit2
 
 
 
