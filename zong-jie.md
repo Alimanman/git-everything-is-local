@@ -96,8 +96,9 @@ git commit -m "<message>"
 
 ## 撤回
 
-HEAD只想最新commit的引用，^表示返回上一个版本，^^表示返回之前第二个版本，以此类推。
-也可以使用HEAD~n来返回，或者直接使用commit ID。
+HEAD是最新commit的引用，^表示返回上一个版本，^^表示返回之前第二个版本，以此类推。
+也可以使用HEAD~n来返回，例HEAD~2。
+或者直接使用commit ID，返回到指定的版本。
 
 > 如果要再返回（ctrl+y），可以使用commit ID来实现。
 
@@ -133,14 +134,16 @@ git push origin <branch>
 git push
 ```
 
-如果是reset --hard恢复历史版本
+> `git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
+
+恢复历史版本
+
+如果是reset --hard恢复历史版本，需要加-f强制push。
 
 ```
 git push -f origin <branch>
 git push -f
 ```
-
-`git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
 ---
 
@@ -214,19 +217,46 @@ git branch -m <old name> <new name>
   4. `git remote prune origin`清理远程分支，`git branch -d <new branch>
 `删除本地分支。
 
+## 临时存放工作目录的改动
 
+1. 必须先添加文件追踪`git add .`；
+2. 在分支branch下，`git stash`；
+3. 回到master，要干啥干啥。master的活儿干好了；
+4. 切换回分支branch下，`git stash pop`。
 
+## 给重要的版本添加tag
 
+显示所有标签
 
+```
+git tag
+```
 
+commit时添加标签
 
+```
+git tag <tag name>
+```
 
+补打标签
 
+```
+git tag <tag name> <commit ID>
+```
 
+删除标签
 
+```
+git tag -d <tag name>
+```
 
+通过标签切换版本
 
-
+```
+git reset --hard <tag name>
+git checkout <tag name>
+```
+> checkout和reset的最大区别之一就是，checkout后HEAD指向了一个没有分支名字的修订版本,已经处于游离状态了(detached HEAD)。
 
 ---
 
@@ -234,9 +264,3 @@ git branch -m <old name> <new name>
 
 - http://www.bootcss.com/p/git-guide/
 - https://www.gitbook.com/book/bingohuang/progit2
-
-
-
-
-
-
