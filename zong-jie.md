@@ -23,12 +23,12 @@ git config --global user.email
   2. 放入需要提交的文件；
   3. `git add .`添加追踪文件；
   4. `git commit -m "first commit"`提交暂存和填写提交信息；
-  5. `git remote add origin <git-http>`添加远程仓库别名为origin；
+  5. `git remote add origin <git http>`添加远程仓库别名为origin；
   6. `git push -u origin master`提交中央仓库并新建master作为默认，之后可以直接`git push`提交。
   
 - **中央服务器获取（推荐）**
   0. GitHub或Bitbucket新建仓库；
-  1. `git clone <git-http>`
+  1. `git clone <git http>`
   2. 放入需要提交的文件；
   3. `git add .`添加追踪文件；
   5. `git push`直接提交。
@@ -142,6 +142,24 @@ git push -f
 
 `git push` 等于 `git push origin master`，因为通过`-u`设定了一个默认主机。
 
+---
+
+## 协作开发
+
+大多数的开发团队会规定开发以 master 为核心，所有的分支都在一定程度上围绕着 master 来开发。
+
+**现今主流的工作流**
+
+1. Feature Branching
+2. Git Flow
+
+## Feature Branching
+
+**这种工作流的核心内容**
+
+1. 任何新的功能或 bug 修复全都新建一个 branch 来写；
+2. branch 写完后，合并到 master，然后删掉这个 branch（本地和远程）。
+
 ## branch
 
 1. `git branch`查看本地所有分支
@@ -169,8 +187,8 @@ git checkout <branch>
 **删除branch**
 
 ```
-git branch -d <本地 branch>
-git push origin -d <远程 branch>
+git branch -d <new branch>
+git push origin -d <new branch>
 ```
 
 在你创建仓库的时候，master被“默认”创建。
@@ -180,28 +198,21 @@ git push origin -d <远程 branch>
 git branch -m <old name> <new name>
 ```
 
----
-
-## 协作开发
-
-大多数的开发团队会规定开发以 master 为核心，所有的分支都在一定程度上围绕着 master 来开发。
-
-**现今主流的工作流**
-
-1. Feature Branching
-2. Git Flow
-
-## Feature Branching
-
-**这种工作流的核心内容**
-
-1. 任何新的功能或 bug 修复全都新建一个 branch 来写；
-2. branch 写完后，合并到 master，然后删掉这个 branch（本地和远程）。
-
 ## 合并
 
 - merge
-- Pull Request
+  1. 上传分支branch到中央仓库`git push origin <new branch>`；
+  2. 本地切换到`git checkout master`；
+  3. 合并`git merge <new branch>`；
+  4. `git push`；
+  5. 删除本地和远程的分支branch。
+
+- Pull Request(推荐)
+  1. 上传分支branch到中央仓库`git push origin <new branch>`；
+  2. GitHub或Bitbucket页面点击Pull Request按钮；
+  3. 删除本地和远程的分支branch。
+
+
 
 
 
