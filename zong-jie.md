@@ -162,6 +162,12 @@ git push origin -d <远程 branch>
 git branch -m <old name> <new name>
 ```
 
+---
+
+## 协作开发
+
+master作为主branch，
+
 ## 合并
 
 - merge
