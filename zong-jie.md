@@ -47,6 +47,20 @@ git config --global user.email
 git log
 ```
 
+查看详细历史
+
+```
+git log -p
+```
+
+查看具体的 commit
+
+```
+git show
+```
+
+
+
 ## clone
 
 自定义clone下来的仓库文件名
@@ -166,7 +180,7 @@ git branch -m <old name> <new name>
 
 ## 协作开发
 
-master作为主branch，
+大多数的开发团队会规定开发以 master 为核心，所有的分支都在一定程度上围绕着 master 来开发。
 
 ## 合并
 
