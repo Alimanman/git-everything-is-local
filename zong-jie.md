@@ -79,7 +79,7 @@ git commit -m "<message>"
 ## 撤回
 
 HEAD只想最新commit的引用，^表示返回上一个版本，^^表示返回之前第二个版本，以此类推。
-也可以使用HEAD~n来返回，或者直接使用SHA-id。
+也可以使用HEAD~n来返回，或者直接使用commit ID。
 
 1. mixed，保留工作目录，清空add，清空commit。
 
