@@ -210,7 +210,8 @@ git branch -m <old name> <new name>
 - Pull Request(推荐)
   1. 上传分支branch到中央仓库`git push origin <new branch>`；
   2. GitHub或Bitbucket页面点击Pull Request按钮；
-  3. 删除本地和远程的分支branch。
+  3. 本地切换到`git checkout master`；
+  4. 删除本地和远程的分支branch。
 
 
 
