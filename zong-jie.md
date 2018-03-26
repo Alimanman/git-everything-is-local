@@ -72,7 +72,7 @@ git show <commit ID>
 
 自定义clone下来的仓库文件名
 
-`git clone <git-http> <file-name>`
+`git clone <git http> <file name>`
 
 ## add
 
