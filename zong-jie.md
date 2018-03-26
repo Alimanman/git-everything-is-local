@@ -145,6 +145,28 @@ git push -f origin <branch>
 git push -f
 ```
 
+## 过滤不想上传的内容
+
+```
+touch .gitignore
+```
+
+**.gitignore设置**
+
+```
+# 过滤整个sass文件夹及其内容
+/sass/
+
+# 过滤.gitignore自身
+.gitignore
+
+# 过滤所有zip
+*.zip
+
+# 过滤所有xls
+*.xls
+```
+
 ---
 
 ## 协作开发
