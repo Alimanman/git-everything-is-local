@@ -1,15 +1,18 @@
 # 总结
+
 ---
 
 ## 初始化信息
 
 登录
+
 ```
 git config --global user.name <name>
 git config --global user.email <email>
 ```
 
 查看
+
 ```
 git config --global user.name
 git config --global user.email
@@ -17,25 +20,25 @@ git config --global user.email
 
 ## 创建新仓库
 
-- **本地直接创建仓库**
-  0. GitHub或Bitbucket新建仓库；
-  1. 本地文件夹目录下`git init`生成`.git`本地仓库。
-  2. 放入需要提交的文件；
-  3. `git add .`添加追踪文件；
-  4. `git commit -m "first commit"`提交暂存和填写提交信息；
-  5. `git remote add origin <git http>`添加远程仓库别名为origin；
+* **本地直接创建仓库**  
+  0. GitHub或Bitbucket新建仓库；  
+  1. 本地文件夹目录下`git init`生成`.git`本地仓库。  
+  2. 放入需要提交的文件；  
+  3. `git add .`添加追踪文件；  
+  4. `git commit -m "first commit"`提交暂存和填写提交信息；  
+  5. `git remote add origin <git http>`添加远程仓库别名为origin；  
   6. `git push -u origin master`提交中央仓库并新建master作为默认，之后可以直接`git push`提交。
-  
-- **中央服务器获取（推荐）**
-  0. GitHub或Bitbucket新建仓库；
-  1. `git clone <git http>`
-  2. 放入需要提交的文件；
-  3. `git add .`添加追踪文件；
-  5. `git push`直接提交。
+
+* **中央服务器获取（推荐）**  
+  0. GitHub或Bitbucket新建仓库；  
+  1. `git clone <git http>`  
+  2. 放入需要提交的文件；  
+  3. `git add .`添加追踪文件；  
+  4. `git push`直接提交。
 
 ## 查看状态
 
-文件有新建、更新、删除都可以监测到。 
+文件有新建、更新、删除都可以监测到。
 
 `git status`
 
@@ -77,7 +80,6 @@ git show <commit ID>
 
 ```
 git add <file name> <file name>
-
 ```
 
 ## commit
@@ -96,8 +98,8 @@ git commit -m "<message>"
 
 ## 撤回
 
-HEAD是最新commit的引用，^表示返回上一个版本，^^表示返回之前第二个版本，以此类推。
-也可以使用HEAD~n来返回，例HEAD~2。
+HEAD是最新commit的引用，^表示返回上一个版本，^^表示返回之前第二个版本，以此类推。  
+也可以使用HEAD~n来返回，例HEAD~2。  
 或者直接使用commit ID，返回到指定的版本。
 
 > 如果要再返回（ctrl+y），可以使用commit ID来实现。
@@ -216,7 +218,7 @@ git branch -d <new branch>
 git push origin -d <new branch>
 ```
 
-在你创建仓库的时候，master被“默认”创建。
+在你创建仓库的时候，master被“默认”创建。  
 我就是叛逆不喜欢master这个名字，如何改名...
 
 ```
@@ -225,19 +227,18 @@ git branch -m <old name> <new name>
 
 ## 合并
 
-- **merge**
-  1. 上传分支branch到中央仓库`git push origin <new branch>`；
-  2. 本地切换到`git checkout master`；
-  3. 合并`git merge <new branch>`；
-  4. `git push`；
+* **merge**  
+  1. 上传分支branch到中央仓库`git push origin <new branch>`；  
+  2. 本地切换到`git checkout master`；  
+  3. 合并`git merge <new branch>`；  
+  4. `git push`；  
   5. 删除本地和远程的分支branch。
 
-- **Pull Request(推荐)**
-  1. 上传分支branch到中央仓库`git push origin <new branch>`；
-  2. GitHub或Bitbucket页面点击Pull Request按钮；
-  3. 本地切换到`git checkout master`；
-  4. `git remote prune origin`清理远程分支，`git branch -d <new branch>
-`删除本地分支。
+* **Pull Request\(推荐\)**  
+  1. 上传分支branch到中央仓库`git push origin <new branch>`；  
+  2. GitHub或Bitbucket页面点击Pull Request按钮；  
+  3. 本地切换到`git checkout master`；  
+  4. `git remote prune origin`清理远程分支，`git branch -d <new branch>`删除本地分支。
 
 ## 临时存放工作目录的改动
 
@@ -284,13 +285,17 @@ git push --tags
 git reset --hard <tag name>
 git checkout <tag name>
 ```
-checkout和reset的最大区别之一就是，checkout后HEAD指向了一个没有分支名字的修订版本,已经处于游离状态了(detached HEAD)。
-checkout可以快速切换各个版本，因为没有分支名所以无法commit（安全）。
+
+checkout和reset的最大区别之一就是，checkout后HEAD指向了一个没有分支名字的修订版本,已经处于游离状态了\(detached HEAD\)。  
+checkout可以快速切换各个版本，因为没有分支名所以无法commit（安全）。  
 可以通过`git checkout master`快速切换回最新版。
 
 ---
 
 ## 阅读
 
-- http://www.bootcss.com/p/git-guide/
-- https://www.gitbook.com/book/bingohuang/progit2
+* [http://www.bootcss.com/p/git-guide/](http://www.bootcss.com/p/git-guide/)
+* [https://www.gitbook.com/book/bingohuang/progit2](https://www.gitbook.com/book/bingohuang/progit2)
+
+
+
