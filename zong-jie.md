@@ -122,6 +122,16 @@ git reset --soft HEAD^
 git reset --hard HEAD^
 ```
 
+> 以上HEAD同样可以使用branch名实现
+
+例：
+```
+git checkout HEAD^^
+git reset master^^
+git checkout HEAD~5
+git reset master~5
+```
+
 ## push
 
 标准写法
