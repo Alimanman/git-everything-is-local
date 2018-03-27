@@ -30,6 +30,12 @@ https://juejin.im/book/5a124b29f265da431d3c472e
 
 - VCS版本历史都在中央仓库，分布式VCS的版本历史在中央仓库和本地仓库（.git）都有。
 
+  VCS
+  ![](https://user-gold-cdn.xitu.io/2017/11/30/1600a9978ea4bec3?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+  
+  分布式VCS
+  ![](https://user-gold-cdn.xitu.io/2017/11/30/1600a9a4a20c2e6e?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
 ## 分布式VCS的优缺点
 
 ### 优点
