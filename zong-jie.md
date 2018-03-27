@@ -68,6 +68,12 @@ git show
 git show <commit ID>
 ```
 
+只显示一行注释信息
+
+```
+git config format.pretty oneline
+```
+
 ## clone
 
 自定义clone下来的仓库文件名
