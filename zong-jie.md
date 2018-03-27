@@ -126,7 +126,6 @@ git reset --hard HEAD^
 
 例：
 ```
-git checkout HEAD^^
 git reset master^^
 git reset master~5
 ```
