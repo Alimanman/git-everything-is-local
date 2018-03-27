@@ -105,13 +105,14 @@ HEAD是最新commit的引用，^表示返回上一个版本，^^表示返回之�
 > 如果要再返回（ctrl+y），可以使用commit ID来实现。
 
 **1. mixed，保留工作目录，清空add，清空commit。**
-文件不会随着版本变化而变化，一般使用在撤回add和commit后，重新提交add和commit用。
+文件始终保持最新版，不会随着版本变化而变化。一般使用在撤回add和commit后，重新提交add和commit用。
 
 ```
 git reset HEAD^
 ```
 
 **2. soft，保留工作目录，保留add，清空commit。**
+文件始终保持最新版，不会随着版本变化而变化。一般使用在撤回commit后，重新commit用。
 
 ```
 git reset --soft HEAD^
