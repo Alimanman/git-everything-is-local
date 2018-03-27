@@ -12,6 +12,8 @@
 #### 所以你永远可以用 HEAD 来操作当前 commit。
 ```
 git checkout HEAD^^
+git checkout master^^
+git checkout HEAD~5
 git checkout master~5
 git checkout 78a4bc
 git checkout 文件名
