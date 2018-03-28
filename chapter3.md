@@ -146,4 +146,25 @@ git reflog master
 
 这个文本文件记录了所有你希望被 Git 忽略的目录和文件。
 
-https://git-scm.com/docs/gitignore
+```
+touch .gitignore
+```
+
+**.gitignore设置**
+
+```
+# 过滤整个sass文件夹及其内容
+sass/
+
+# 只过滤更目录sass文件夹及其内容
+/sass
+
+# 过滤.gitignore自身
+.gitignore
+
+# 过滤所有zip
+*.zip
+
+# 过滤所有xls
+*.xls
+```
