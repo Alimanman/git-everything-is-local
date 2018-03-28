@@ -174,7 +174,7 @@ touch .gitignore
 
 ```
 # 过滤整个sass文件夹及其内容
-/sass/
+sass/
 
 # 过滤.gitignore自身
 .gitignore
