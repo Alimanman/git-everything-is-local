@@ -42,6 +42,12 @@ git config --global user.email
 
 `git status`
 
+- untracked - 未add的新文件
+- modified  - 已add过，有修改更新的文件
+- deleted   - 已add过，删除的文件
+- staged    - add后的状态
+- unmodify  - 已add过，无修改变化
+
 ## 查看提交历史
 
 历史内容很多的情况下，按q退出。
@@ -87,6 +93,12 @@ git config format.pretty oneline
 
 ```
 git add <file name> <file name>
+```
+
+撤销暂存
+
+```
+git rm --chched <file name> <file name>
 ```
 
 ## commit
