@@ -103,6 +103,12 @@ git rebase -i HEAD^^
 
 还可以使用`git rebase --onto`删除指定位置的commit。
 
+```
+git rebase -i HEAD
+```
+
+在非--hard下，回到上次提交时的状态
+
 ---
 
 ## 如果已经push
