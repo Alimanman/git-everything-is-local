@@ -316,6 +316,13 @@ checkout可以快速切换各个版本，因为没有分支名所以无法commit
 
 ---
 
+## vscode终端默认git bash
+
+```	
+"terminal.integrated.shell.windows": "C:\\Program Files (x86)\\Git\\bin\\bash.exe"
+```
+
+
 ## 阅读
 
 * [http://www.bootcss.com/p/git-guide/](http://www.bootcss.com/p/git-guide/)
