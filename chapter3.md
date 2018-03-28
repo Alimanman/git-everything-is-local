@@ -167,4 +167,7 @@ sass/
 
 # 过滤所有xls
 *.xls
+
+# checksheet.xls除外
+!checksheet.xls
 ```
