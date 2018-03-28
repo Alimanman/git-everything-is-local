@@ -325,8 +325,11 @@ checkout可以快速切换各个版本，因为没有分支名所以无法commit
 
 ## 阅读
 
-* [http://www.bootcss.com/p/git-guide/](http://www.bootcss.com/p/git-guide/)
-* [https://www.gitbook.com/book/bingohuang/progit2](https://www.gitbook.com/book/bingohuang/progit2)
+* [git - 简易指南](http://www.bootcss.com/p/git-guide/)
+* [Pro Git 第二版 简体中文](https://www.gitbook.com/book/bingohuang/progit2)
+* [一篇文章，教你学会Git](https://juejin.im/post/599e14875188251240632702)
+* [如何优雅地使用 Git](https://juejin.im/post/5a54386af265da3e3b7a6317)
+
 
 
 
