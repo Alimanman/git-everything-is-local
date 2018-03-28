@@ -171,3 +171,6 @@ sass/
 # checksheet.xls除外
 !checksheet.xls
 ```
+
+.gitignore 规则只能作用于 Untracked Files，也就是那些从来没有被 Git 记录过的文件，从未 add 及 commit 过的文件。
+如果被 add 及 commit 过的文件，就算之后再设置过滤，也会被侦测到的。
