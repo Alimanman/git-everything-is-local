@@ -81,6 +81,27 @@ git show <commit ID>
 git config format.pretty oneline
 ```
 
+## 查看与上一版本区别
+
+未add
+
+```
+git diff
+```
+
+已add
+
+```
+git diff --staged
+git diff --cached
+```
+
+已push
+
+```
+git diff HEAD^
+```
+
 ## clone
 
 自定义clone下来的仓库文件名
@@ -98,7 +119,7 @@ git add <file name> <file name>
 撤销暂存
 
 ```
-git rm --chched <file name> <file name>
+git rm --cached <file name> <file name>
 ```
 
 ## commit
