@@ -19,6 +19,10 @@ git merge branch1
 
 **rebase 指令，它可以改变 commit 序列的基础点。**
 
+关于merge的建议：
+如果你想要一个干净的，没有merge commit的线性历史树，那么你应该选择git rebase
+如果你想保留完整的历史记录，并且想要避免重写commit history的风险，你应该选择使用git merge
+
 ---
 
 ## commit --amend
