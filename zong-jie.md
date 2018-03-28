@@ -316,7 +316,7 @@ checkout可以快速切换各个版本，因为没有分支名所以无法commit
 
 ---
 
-## vscode终端默认git bash
+## vscode终端默认Git Bash
 
 ```	
 "terminal.integrated.shell.windows": "C:\\Program Files (x86)\\Git\\bin\\bash.exe"
