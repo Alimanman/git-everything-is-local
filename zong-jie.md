@@ -48,6 +48,7 @@ git config --global user.email
 
 ```
 git log
+git log origin master
 ```
 
 查看详细历史
