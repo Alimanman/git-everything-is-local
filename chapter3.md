@@ -156,7 +156,7 @@ touch .gitignore
 # 过滤整个sass文件夹及其内容
 sass/
 
-# 只过滤更目录sass文件夹及其内容
+# 只过滤根目录sass文件夹及其内容
 /sass
 
 # 过滤.gitignore自身
